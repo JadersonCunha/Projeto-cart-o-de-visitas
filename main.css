@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    position: absolute;  
+    top: 10px;          
+    left: 10px;         
+    z-index: 1000;      
+}
+
+.logo img {
+    width: 100px;        
+    height: auto;        
+}
+
+img{
+    height: 130px;
+    border-radius: 15%;
+    box-shadow: 2px 1px 1px  red;
+}
+
+.card-container {
+    background-color: var(--deep-black);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(215, 12, 12, 0.5);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button {
+    background-color: var(--electric-blue);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+button{
+    background-color: #2980b9;
+}
+
+#resetBtn {
+    background-color: #ff4d4d;
+}
+
+#resetBtn:hover {
+    background-color: #cc0000;
+}
+
+.social-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-buttons a {
+    text-decoration: none;
+    color: var(--electric-blue);
+    transition: color 0.3s;
+    
+}
+
+.social-buttons a:hover {
+    color: #0056b3;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #bbbbbb;
+}
